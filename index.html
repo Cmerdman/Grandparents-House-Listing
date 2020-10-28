@@ -2,12 +2,39 @@
 <html>
     <head>
         <title>Cameron Erdman</title>
+        <style>
+            body {
+              padding: 25px;
+              background-color: white;
+              color: black;
+              font-size: 25px;
+            }
+            
+            .dark-mode {
+              background-color: black;
+              color: white;
+            }
+            </style>
     </head>
 
     <body>
+
         <h1>
             Not yet done, pls wait a bit
         </h1>
+
+        <h2>Toggle Dark/Light Mode</h2>
+            <p>Click the button to toggle between dark and light mode for this page.</p>
+            <button onclick="myFunction()">Toggle dark mode</button>
+
+            <script>
+                function myFunction() {
+                    var element = document.body;
+                    element.classList.toggle("dark-mode");
+                }
+            </script>
+
+            
         <p><a href="/resume">cheeky lil resume</a></p>
     </body>
 </html>
