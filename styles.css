@@ -4,6 +4,6 @@ body {
   }
   
   .dark-mode {
-    background-color:rgb(61, 220, 132);
-    color: rgb(66, 133, 244);
+    color:rgb(61, 220, 132);
+    background: rgb(66, 133, 244);
   }
