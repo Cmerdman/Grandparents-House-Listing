@@ -1,9 +1,9 @@
 body {
-    background-color: blanchedalmond;
-    color: black;
+    background-color: rgb(61, 220, 132);
+    color: rgb(66, 133, 244);
   }
   
   .dark-mode {
-    background-color: black;
-    color: blanchedalmond;
+    background-color:rgb(61, 220, 132);
+    color: rgb(66, 133, 244);
   }
