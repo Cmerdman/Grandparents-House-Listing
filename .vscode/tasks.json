@@ -4,5 +4,8 @@
     "windows": {
         "command": "firefox.exe"
     },
-    "args": ["index.html"]
+    "args": [
+        "index.html"
+    ],
+    "problemMatchers": []
 }
