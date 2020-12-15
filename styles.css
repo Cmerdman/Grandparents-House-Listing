@@ -2,6 +2,10 @@ img{
     width: 95%;
     height: auto;
 }
+a{
+    text-decoration: none;
+    color: rgb(220, 236, 250);
+}
 #body{
     background-color: #2f4454;
 }
@@ -16,6 +20,17 @@ img{
     height: 10%;
     margin-left: auto;
     margin-right: auto;
+}
+#resume{
+    float: left;
+    margin-left: 40%;
+}
+#home{
+    float: right;
+    margin-right: 40%;
+}
+#newLine{
+    clear: both;
 }
 #main{
     width: 100%;
@@ -81,6 +96,17 @@ img{
     margin-top: 40%;
     clear: both;
 }
+
+
+
+
+#maps{
+    width: 400px;
+    height: 500px;
+}
+
+
+
 
 /*
 some nice colors : #2E151B
