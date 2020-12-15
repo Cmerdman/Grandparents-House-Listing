@@ -35,6 +35,7 @@ function initMap() {
     const map = new google.maps.Map(document.getElementById("maps"), {
       zoom: 17,
       center: house,
+      mapTypeId: 'satellite'
     });
     // The marker, positioned at Uluru
     const marker = new google.maps.Marker({

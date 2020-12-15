@@ -11,25 +11,34 @@
     <body id = "body" onload="showSlides(1);">
         <div id = "container">
         <div id = "header">
-            <a id = location href="location"><h3>Location Info</h3></a>
-            <a id = home href="index"><h3> Home </h3></a>
+            <a id = "location" href="location"><h3>Location Info</h3></a>
+            <a id = "home" href="index"><h3> Home </h3></a>
+            <a id = "contact" href="contact"><h3>Contact Info</h3></a>
             <hr id="newLine"/> 
         </div id = "header">
 
-        <div id = "main">
 
-
+<!--Slideshow-->
         <div id = "slideshow">
-            <h1>Slides</h1>
-            
+            <br/><br/><br/><br/>
             <div class = "slides">
-                <img src="pictures/hobbit_house.jpg" alt="hobbit_house">
-                <div class = "index">1/2</div>
+                <div class = "pictures">
+                    <img src="pictures/hobbit_house.jpg" alt="hobbit_house">
+                    <div class = "index">1/2</div>
+                </div class = "pictures">
+                <divc class = info>
+                    <h3>Put each pictures description here</h3>
+                </div>
             </div>
 
             <div class = "slides">
-                <img src="pictures/hobbit_entrance.jpg" alt="hobbit_entrance">
-                <div class = "index">2/2</div>
+                <div class = "pictures">
+                    <img src="pictures/hobbit_entrance.jpg" alt="hobbit_entrance">
+                    <div class = "index">2/2</div>
+                </div>
+                <divc class = info>
+                    <h3>Put the other pictures descriptions here, they change for each picture</h3>
+                </div>
             </div>
 
 
@@ -38,20 +47,13 @@
 
         </div id= "slideshow">
 
-        <div id = "info">
-            <h1>Info</h1>
-            <h3>This is a house, you can buy this house for 20 pennies and 3 dimes.<br/><br/> Interested? Call me, you know my number.<br/>119 Airport Road, Centre Hall, PA</h3>
-            <!--is right of page, holds details of each picture as welll as maybe general dtails-->
-        </div id= "info">
-        </div id= "main">
+<!--end of slideshow-->
 
-        <br/>
         <div id = "footer">
             <h1>footer</h1>
             <h3>For sale from owners(off on adventure)</h3>
             <!--a footer at bottom of page that contains price and contact info-->
         </div id= "footer">
-        </div id= "container"
-        >
+        </div id= "container">
     </body id = "body">
 </html>
