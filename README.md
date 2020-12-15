@@ -1,2 +1,2 @@
 # cmerdman.github.io
-Hi, work in progress
+Hi, This is a website I built to help sell my grandparents house.
