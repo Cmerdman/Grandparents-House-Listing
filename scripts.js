@@ -5,6 +5,10 @@ showSlides(slideIndex);
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
+function goTo(n) {
+  slideIndex = n;
+  showSlides(slideIndex);
+}
 
 //thumbnail imgae controls
 function currentSlide(n) {
