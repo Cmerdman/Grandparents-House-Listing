@@ -32,7 +32,6 @@ a{
     
 #contact{
     float: left;
-    margin-right:30%;
     margin-left: 10%;
 }
 
@@ -142,6 +141,7 @@ a{
     color:rgb(220, 236, 250);
     text-align: center;
     margin-top: 100px;
+    font-size: large;
 }
 
 
@@ -155,6 +155,10 @@ a{
 #nearby{
     text-align: center;
     color: rgb(220, 236, 250);
+}
+
+#bestPlaces{
+    text-decoration: underline;
 }
 
 #coverTop{
