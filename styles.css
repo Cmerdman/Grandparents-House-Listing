@@ -23,7 +23,7 @@ a{
 }
 #location{
     float: left;
-    margin-left: 30%;
+    margin-left: 25%;
     margin-right: 10%;
 }
 #home{
@@ -31,6 +31,10 @@ a{
 }
     
 #contact{
+    float: left;
+    margin-left: 10%;
+}
+#tour{
     float: left;
     margin-left: 10%;
 }
