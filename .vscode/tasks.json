@@ -5,7 +5,7 @@
         "command": "firefox.exe"
     },
     "args": [
-        "home.html"
+        "contact.html"
     ],
     "problemMatchers": []
 }

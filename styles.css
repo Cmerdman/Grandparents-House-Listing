@@ -147,7 +147,11 @@ a{
     margin-top: 100px;
     font-size: large;
 }
-
+#sale{
+    color:rgb(255, 255, 255);
+    font-size: larger;
+    text-decoration: underline; 
+}
 
 #maps{
     width: 800px;
